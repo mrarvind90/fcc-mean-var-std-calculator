@@ -20,7 +20,6 @@ A Python program to compute the mean, variance, standard deviation, maximum, min
 - Handles ValueError gracefully for lists with less than 9 numbers.
 
 ## Prerequisites
-
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.10 or higher installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
@@ -37,7 +36,7 @@ Follow these steps to install and set up Poetry for this project:
    ```
 3. Change into the Project Directory
    ```shell
-   cd mean-variance-std-calculator
+   cd fcc-mean-var-std-calculator
    ```
 4. Install Dependencies:
    ```shell
