@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fcc-mean-var-std-calculator"
+version = "1.0.0"
+description = "A Python program to compute the mean, variance, standard deviation, maximum, minimum, and sum of a given list, both flattened and along specified axes using Numpy."
+authors = ["Arvindran Kalidas <arvindrankalidas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[tool.black]
+line-length = 120
+target-version=['py310']
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
